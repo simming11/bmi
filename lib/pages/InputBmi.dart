@@ -24,6 +24,7 @@ class _InputBmiState extends State<InputBmi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+       resizeToAvoidBottomInset: false, // set it to false
       appBar: AppBar(
         title: const Text("BMI"),
       ),
